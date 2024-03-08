@@ -1,0 +1,1 @@
+# Foster Commerce Rector Rules

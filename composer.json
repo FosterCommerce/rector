@@ -1,0 +1,13 @@
+{
+    "name": "fostercommerce/rector",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "fostercommerce\\rector\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "craftcms/rector": "dev-main"
+    }
+}
