@@ -10,7 +10,7 @@ use Rector\Naming\Rector\ClassMethod\RenameVariableToMatchNewTypeRector;
 use Rector\Set\ValueObject\SetList;
 
 return static function(RectorConfig $rectorConfig): void {
-    $rectorConfig->import(__DIR__ . '/common.php');
+    $rectorConfig->parallel();
     $rectorConfig->sets([
         SetList::PHP_81,
         SetList::PHP_80,
